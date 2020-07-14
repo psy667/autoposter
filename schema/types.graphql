@@ -1,0 +1,49 @@
+type Page {
+    id: ID
+
+    "Title"
+    title: String
+
+    "List of subreddits"
+    subreddits: [Subreddit]
+
+    "Social media platform"
+    platform: Platforms
+
+    "How many posts per day (max 24)"
+    period: Int
+
+    "Link"
+    url: String
+
+    "Does the title translate"
+    isTitleTranslated: Boolean
+}
+
+enum Platforms {
+    VK
+    INSTAGRAM
+}
+
+type Subreddit {
+    id: ID
+
+    description: String
+}
+
+type Post {
+    id: ID
+
+    title: String
+    media: String
+    status: PostStatus
+
+    createdAt: Int
+    postedAt: Int
+}
+
+enum PostStatus {
+    IDLE
+    SCHEDULED
+    POSTED
+}

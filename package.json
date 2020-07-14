@@ -1,0 +1,25 @@
+{
+  "name": "autoposter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psy667/autoposter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psy667/autoposter/issues"
+  },
+  "homepage": "https://github.com/psy667/autoposter#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}
