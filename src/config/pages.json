@@ -1,0 +1,18 @@
+{
+  "pages": [
+    {
+      "id": "nicememebruh",
+      "title": "memes",
+      "subreddits": [
+        "memes",
+        "dankmemes"
+      ],
+      "platform": "VK",
+      "description": "just memes",
+      "period": 24,
+      "url": "https://vk.com/nicememebruh",
+      "isTitleTranslated": false,
+      "isNoTitle": false
+    }
+  ]
+}

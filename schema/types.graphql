@@ -10,6 +10,8 @@ type Page {
     "Social media platform"
     platform: Platforms
 
+    description: String
+
     "How many posts per day (max 24)"
     period: Int
 
@@ -18,6 +20,8 @@ type Page {
 
     "Does the title translate"
     isTitleTranslated: Boolean
+
+    isNoTitle: Boolean
 }
 
 enum Platforms {
@@ -37,6 +41,8 @@ type Post {
     title: String
     media: String
     status: PostStatus
+
+    page: Page
 
     createdAt: Int
     postedAt: Int
